@@ -1,0 +1,3 @@
+#!/bin/bash
+. ./setenv
+$LUAROCKS install luasocket
