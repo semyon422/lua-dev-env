@@ -1,7 +1,7 @@
 #include <lua.h>
 #include <lauxlib.h>
 
-lua_Number add(lua_Number a, lua_Number b) {
+lua_Number LUA_API add(lua_Number a, lua_Number b) {
 	return a + b;
 }
 

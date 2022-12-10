@@ -3,7 +3,6 @@ cd /D "%~dp0"
 set TREE=%CD%\root
 
 set PATH=%TREE%\bin;%TREE%\lib;%PATH%
-set PATH=%PATH%;C:\msys64\mingw64\bin;C:\msys64\usr\bin
 
 set LUA_PATH=.\?.lua
 set LUA_PATH=%LUA_PATH%;%TREE%\share\luajit-2.1.0-beta3\?.lua
@@ -13,5 +12,6 @@ set LUA_CPATH=.\?.dll
 set LUA_CPATH=%LUA_CPATH%;%TREE%\lib\lua\5.1\?.dll
 set LUA_CPATH=%LUA_CPATH%;%TREE%\lib\lua\5.1\loadall.dll
 
-set LUAROCKS_CONFIG=%CD%\config-5.1.lua
 set LUAROCKS=luarocks --lua-version 5.1 --lua-dir %TREE% --tree %TREE%
+
+"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat" x86_amd64

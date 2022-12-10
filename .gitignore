@@ -1,4 +1,7 @@
 libtest.so
 libtest.dll
+libtest.lib
+libtest.exp
+test.obj
 root
 LuaJIT

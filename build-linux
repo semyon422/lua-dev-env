@@ -1,4 +1,4 @@
 #!/bin/bash
-. ./setenv
+. ./setenv-linux
 # gcc -I$TREE/include/luajit-2.1 -shared -o libtest.so test.c -L$TREE/lib -l:libluajit-5.1.a
 gcc -I$TREE/include/luajit-2.1 -shared -o libtest.so test.c
