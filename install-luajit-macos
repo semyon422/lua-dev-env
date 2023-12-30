@@ -2,7 +2,7 @@
 . ./setenv-linux
 
 cd LuaJIT
-make
+MACOSX_DEPLOYMENT_TARGET=10.9 make
 make install DESTDIR=$TREE PREFIX=
 cd ..
 
