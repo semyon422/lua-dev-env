@@ -6,7 +6,7 @@ PATH=$TREE/bin:$PATH
 LD_LIBRARY_PATH=$TREE/lib
 
 LUA_PATH="./?.lua"
-LUA_PATH="$LUA_PATH;$TREE/share/luajit-2.1.0-beta3/?.lua"
+LUA_PATH="$LUA_PATH;$TREE/share/luajit-2.1/?.lua"
 LUA_PATH="$LUA_PATH;$TREE/share/lua/5.1/?.lua;$TREE/share/lua/5.1/?/init.lua"
 
 LUA_CPATH="./?.so"
